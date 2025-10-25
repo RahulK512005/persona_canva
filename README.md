@@ -8,6 +8,7 @@
 | 🏢 Employee Dashboard | Access team-level insights and feedback | [Open](https://leadership-pulse-x34ir58.public.builtwithrocket.new) |
 | 🧠 Leadership Coach AI | Scenario-based AI feedback and growth tips | [Open](https://leadership-coach-ai-vkv9942.public.builtwithrocket.new) |
 | 🎮 Leadership Assessment Scenarios | Gamified leadership style discovery | [Open](https://v0-leadership-assessment-scenarios.vercel.app/) |
+| 🌍 Public Link | The public link for the project | [Open](https://leadership-mirror-402375-377bf.web.app/) |
 
 ---
 
@@ -144,6 +145,8 @@ Enable leaders to **receive, analyze, and respond** to team feedback interactive
 | Visualization | Recharts / Chart.js |
 | Deployment | Vercel / Rocket new / GitHub Pages |
 
+---
+
 ## 🎨 UI & Experience
 
 - **Dark mode** interface with glowing animations  
@@ -159,3 +162,34 @@ Enable leaders to **receive, analyze, and respond** to team feedback interactive
 ```bash
 git clone https://github.com/your-username/leadership-mirror.git
 cd leadership-mirror
+```
+
+### 2. Installation
+
+Install the dependencies using npm:
+
+```bash
+npm install
+```
+
+### 3. Running the Project
+
+To run the project locally, use the following command:
+
+```bash
+npm run dev
+```
+
+This will start the development server.
+
+## 🛠️ Build Fixes
+
+This project recently underwent a series of build fixes to address import errors. The following changes were made:
+
+- Corrected the import path for `ScrollToTop` in `src/Routes.jsx`.
+- Corrected the import path for `ErrorBoundary` in `src/Routes.jsx`.
+- Corrected the import path for `NotFound` in `src/Routes.jsx`.
+- Corrected the import paths for `Button` and `AppIcon` in `src/pages/NotFound.jsx`.
+- Created a new `BreadcrumbTrail` component in `src/components/ui/BreadcrumbTrail.jsx` to resolve a build error.
+
+These changes have resulted in a stable build, and the application has been successfully deployed.

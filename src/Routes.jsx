@@ -1,8 +1,8 @@
 import React from "react";
 import { BrowserRouter, Routes as RouterRoutes, Route } from "react-router-dom";
-import ScrollToTop from "components/ScrollToTop";
-import ErrorBoundary from "components/ErrorBoundary";
-import NotFound from "pages/NotFound";
+import ScrollToTop from "./components/ScrollToTop";
+import ErrorBoundary from "./components/ErrorBoundary";
+import NotFound from "./pages/NotFound";
 import TeamFeedbackDashboard from './pages/team-feedback-dashboard';
 import LeadershipDashboard from './pages/leadership-dashboard';
 import AIAnalysisResults from './pages/ai-analysis-results';
