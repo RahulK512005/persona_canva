@@ -5,6 +5,7 @@
 | Module | Description | Link |
 |--------|-------------|------|
 | 🧭 Employee Dashboard | Reflect on leadership experiences, get AI insights | [Open](https://leadership-mirror-we03101.public.builtwithrocket.new) |
+| 🏢 Employee Dashboard | Access team-level insights and feedback | [Open](https://leadership-pulse-x34ir58.public.builtwithrocket.new) |
 | 🧠 Leadership Coach AI | Scenario-based AI feedback and growth tips | [Open](https://leadership-coach-ai-vkv9942.public.builtwithrocket.new) |
 | 🎮 Leadership Assessment Scenarios | Gamified leadership style discovery | [Open](https://v0-leadership-assessment-scenarios.vercel.app/) |
 
