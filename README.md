@@ -138,10 +138,10 @@ Enable leaders to **receive, analyze, and respond** to team feedback interactive
 |-------|------------|
 | Frontend | React + TailwindCSS + Framer Motion |
 | Backend | Node.js / Python (FastAPI or Flask) |
-| Database | Firebase / MongoDB |
-| AI Models | GPT-5 (reflection analysis), Gemini API (tone detection) |
+| Database | Superbase |
+| AI Models | Gemini API (tone detection) |
 | Visualization | Recharts / Chart.js |
-| Deployment | Vercel / Replit / GitHub Pages |
+| Deployment | Vercel / Rocket new / GitHub Pages |
 
 ## 🎨 UI & Experience
 
