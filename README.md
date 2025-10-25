@@ -1,4 +1,4 @@
-## 🌟 Persona Canvas – The Leadership Mirror
+# 🌟 Persona Canvas – The Leadership Mirror
 
 ## 🚀 Live Demo Hub
 
@@ -51,26 +51,6 @@ An **AI coach** helps users reflect on daily leadership experiences through text
   - NLP-based tone and sentiment analysis  
   - Leadership style detection  
   - Emotional state classification  
-- **Output Summary Format:**
-
-
-## 📁 Project Structure 
-
-react_app/
-├── public/             # Static assets
-├── src/
-│   ├── components/     # Reusable UI components
-│   ├── pages/          # Page components
-│   ├── styles/         # Global styles and Tailwind configuration
-│   ├── App.jsx         # Main application component
-│   ├── Routes.jsx      # Application routes
-│   └── index.jsx       # Application entry point
-├── .env                # Environment variables
-├── index.html          # HTML template
-├── package.json        # Project dependencies and scripts
-├── tailwind.config.js  # Tailwind CSS configuration
-└── vite.config.js      # Vite configuration
-```
 
 #### Leadership Styles
 - Visionary  
@@ -151,6 +131,26 @@ Enable leaders to **receive, analyze, and respond** to team feedback interactive
 
 ---
 
+## 📁 Project Structure
+'''
+react_app/
+├── public/ # Static assets
+├── src/
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Page components
+│ ├── styles/ # Global styles and Tailwind configuration
+│ ├── App.jsx # Main application component
+│ ├── Routes.jsx # Application routes
+│ └── index.jsx # Application entry point
+├── .env # Environment variables
+├── index.html # HTML template
+├── package.json # Project dependencies and scripts
+├── tailwind.config.js # Tailwind CSS configuration
+└── vite.config.js # Vite configuration
+'''
+
+---
+
 ## 🖥️ Tech Stack
 
 | Layer | Technology |
@@ -179,5 +179,3 @@ Enable leaders to **receive, analyze, and respond** to team feedback interactive
 ```bash
 git clone https://github.com/your-username/leadership-mirror.git
 cd leadership-mirror
-
-
