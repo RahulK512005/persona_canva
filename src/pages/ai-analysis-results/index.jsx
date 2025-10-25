@@ -55,42 +55,99 @@ const AIAnalysisResults = () => {
 
     recommendations: {
       videos: [
-      {
-        id: 1,
-        title: "The Art of Collaborative Leadership",
-        description: "Learn how to build stronger team relationships and foster collaborative decision-making in your organization.",
-        embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        duration: "12:45",
-        channel: "Leadership Excellence"
-      },
-      {
-        id: 2,
-        title: "Effective Communication Strategies for Leaders",
-        description: "Master the communication techniques that top leaders use to inspire and motivate their teams.",
-        embedUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ",
-        duration: "18:30",
-        channel: "Harvard Business Review"
-      }],
-
+        {
+          id: 1,
+          title: "Start With Why",
+          author: "Simon Sinek",
+          description: "A seminal talk on leadership, emphasizing the importance of starting with 'why' to inspire action.",
+          embedUrl: "https://www.youtube.com/embed/u4ZoJKF_VuA",
+          watchUrl: "https://www.youtube.com/watch?v=u4ZoJKF_VuA",
+          duration: 1098,
+          channel: "TED",
+        },
+        {
+          id: 2,
+          title: "Empowering Leaders: Simon Sinek's Guide",
+          author: "Simon Sinek",
+          description: "A guide to empowering leadership, focusing on trust and collaboration.",
+          embedUrl: "https://www.youtube.com/embed/g25bGA-qlRo",
+          watchUrl: "https://www.youtube.com/watch?v=g25bGA-qlRo",
+          duration: 2143,
+          channel: "Simon Sinek",
+        },
+        {
+          id: 3,
+          title: "How to Make Hard Choices",
+          author: "Ruth Chang",
+          description: "Explores the psychology behind difficult decisions and how to approach them.",
+          embedUrl: "https://www.youtube.com/embed/8GQZuzIdeQQ",
+          watchUrl: "https://www.youtube.com/watch?v=8GQZuzIdeQQ",
+          duration: 864,
+          channel: "TED",
+        },
+        {
+          id: 4,
+          title: "How to Claim Your Leadership Power",
+          author: "Michael Timms",
+          description: "Discusses taking accountability and the three habits of personal leadership.",
+          embedUrl: "https://www.youtube.com/embed/dIYmzf21d1g",
+          watchUrl: "https://www.youtube.com/watch?v=dIYmzf21d1g",
+          duration: 1187,
+          channel: "TEDx Talks",
+        },
+        {
+          id: 5,
+          title: "5 Practices of Resilient Leadership",
+          author: "Dr. Taryn Marie Stejskal",
+          description: "Shares practices for building resilience in leadership roles.",
+          embedUrl: "https://www.youtube.com/embed/G8XX_SZzvJM",
+          watchUrl: "https://www.youtube.com/watch?v=G8XX_SZzvJM",
+          duration: 1432,
+          channel: "Leadership Insights",
+        }
+      ],
       books: [
-      {
-        id: 1,
-        title: "The Collaborative Leader",
-        author: "David Archer",
-        description: "A comprehensive guide to building collaborative teams and fostering innovation through shared leadership.",
-        cover: "https://images.unsplash.com/photo-1637917391093-a55812c55849",
-        coverAlt: "Book cover showing collaborative leadership concept with interconnected circles on blue background",
-        amazonUrl: "https://amazon.com/collaborative-leader"
-      },
-      {
-        id: 2,
-        title: "Crucial Conversations",
-        author: "Kerry Patterson",
-        description: "Tools for talking when stakes are high and emotions run strong in leadership situations.",
-        cover: "https://images.unsplash.com/photo-1521301914133-1b4763d20f3c",
-        coverAlt: "Book cover with conversation bubbles and professional business imagery on white background",
-        amazonUrl: "https://amazon.com/crucial-conversations"
-      }],
+        {
+          id: 1,
+          title: "Start With Why",
+          author: "Simon Sinek",
+          description: "A seminal talk on leadership, emphasizing the importance of starting with 'why' to inspire action.",
+          cover: "https://images.unsplash.com/photo-1521301914133-1b4763d20f3c",
+          amazonUrl: "https://www.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447",
+        },
+        {
+          id: 2,
+          title: "Leaders Eat Last",
+          author: "Simon Sinek",
+          description: "Learn how to handle high-stakes conversations with confidence and skill, turning difficult discussions into positive outcomes.",
+          cover: "https://images.unsplash.com/photo-1731488101258-6ef10ac4f2a3",
+          amazonUrl: "https://www.amazon.com/Leaders-Eat-Last-Together-Others/dp/1591848016",
+        },
+        {
+          id: 3,
+          title: "Dare to Lead",
+          author: "Brené Brown",
+          description: "Discover how to increase your emotional intelligence and use it to improve your leadership effectiveness and team relationships.",
+          cover: "https://images.unsplash.com/photo-1592496431122-2349e0fbc666",
+          amazonUrl: "https://www.amazon.com/Dare-Lead-Brave-Conversations-Hearts/dp/0399592520",
+        },
+        {
+          id: 4,
+          title: "The 7 Habits of Highly Effective People",
+          author: "Stephen Covey",
+          description: "A comprehensive guide to the five practices of exemplary leadership, backed by decades of research and real-world examples from successful leaders.",
+          cover: "https://images.unsplash.com/photo-1521301914133-1b4763d20f3c",
+          amazonUrl: "https://www.amazon.com/Habits-Highly-Effective-People-Powerful/dp/1982137274",
+        },
+        {
+          id: 5,
+          title: "Extreme Ownership",
+          author: "Jocko Willink",
+          description: "Learn how to handle high-stakes conversations with confidence and skill, turning difficult discussions into positive outcomes.",
+          cover: "https://images.unsplash.com/photo-1731488101258-6ef10ac4f2a3",
+          amazonUrl: "https://www.amazon.com/Extreme-Ownership-U-S-Navy-SEALs/dp/1250067057",
+        }
+      ],
 
       courses: [
       {
